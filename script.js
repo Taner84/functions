@@ -61,30 +61,23 @@
   ES6 Syntax (Arrow function): const add = () => {}
 */
 
-const add = (a, b) => {
-  //Add function here
-  return a + b
-}
+const add = (a, b) => a + b
+//Add function here
+
 console.log(add(1, 2))
 
-const sub = (a, b) => {
-  //Subtract function here
-  return a - b
-}
+const sub = (a, b) => a - b
+//Subtract function here
 
 console.log(sub(1, 2))
 
-const div = (a, b) => {
-  //Divide function here
-  return a / b
-}
+const div = (a, b) => a / b
+//Divide function here
 
 console.log(div(1, 2))
 
-const mul = (a, b) => {
-  //Multiply function here
-  return a * b
-}
+const mul = (a, b) => a * b
+//Multiply function here
 
 console.log(mul(1, 2))
 
